@@ -111,7 +111,7 @@ export const MainPage = () => {
           {filterId == 2 ? (
             <div className="filter-container">
               <input type="text" value={inputValue} onChange={onInputChange} />
-              <button onClick={() => filterByName(inputValue)}>Buscar</button>
+              <button onClick={() => filterByName(inputValue)}>Search</button>
             </div>
           ) : null}
         </div>
