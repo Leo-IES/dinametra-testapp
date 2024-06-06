@@ -22,13 +22,13 @@ export const Dropdown = ({
   };
 
   return (
-    <div className="dropdown">
+    <div className="dropdown" data-testid="dropdown">
       <button className="dropbtn">
         {title} {selectedOption != "" && selectedOption != "Hidde Filter" ? selectedOption : null}
       </button>
       <div className="dropdown-content">
         {options.map((option: Option) => (
-          <div key={option.id} onClick={($event) => setOption(option)}>
+          <div key={option.id} onClick={() => setOption(option)}>
             {option.name}
           </div>
         ))}

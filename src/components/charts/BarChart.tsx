@@ -57,5 +57,9 @@ export const BarChart = ({ data = [] }: { data: NEO[] }) => {
     setInitialData(baseModel);
   }, [data]);
 
-  return <Bar options={options} data={initialData} />;
+  return (
+    <>
+      <Bar options={options} data={initialData} data-testid="barChart" />;
+    </>
+  );
 };

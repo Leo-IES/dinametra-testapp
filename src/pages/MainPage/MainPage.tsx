@@ -25,6 +25,9 @@ export const MainPage = () => {
   const [inputValue, setInputValue] = useState<string>("");
 
   useEffect(() => {
+    getNEOInfo(getCurrentDateFormatted());
+  }, []);
+  useEffect(() => {
     cleanFilter();
   }, [filterId]);
 
@@ -73,10 +76,10 @@ export const MainPage = () => {
       );
       console.log("new data", newData);
       setNeosInfo(newData);
-      setTotalRecords(newData.length);
+      setTotalRecords(newData!.length);
     } else {
       setNeosInfo(neosInfoCopy);
-      setTotalRecords(neosInfoCopy.length);
+      setTotalRecords(neosInfoCopy!.length);
     }
   };
 
@@ -87,7 +90,7 @@ export const MainPage = () => {
   };
 
   return (
-    <>
+    <div data-testid="MainPage">
       <div style={{ display: "flex", justifyContent: "center" }}>
         <div className="title-container">
           Near Earth Objects
@@ -103,6 +106,7 @@ export const MainPage = () => {
               <input
                 type="date"
                 id="date"
+                data-testid="dateInput"
                 value={dateState}
                 onChange={filterData}
               />
@@ -110,7 +114,7 @@ export const MainPage = () => {
           ) : null}
           {filterId == 2 ? (
             <div className="filter-container">
-              <input type="text" value={inputValue} onChange={onInputChange} />
+              <input data-testid="textInput" type="text" value={inputValue} onChange={onInputChange} />
               <button onClick={() => filterByName(inputValue)}>Search</button>
             </div>
           ) : null}
@@ -123,7 +127,7 @@ export const MainPage = () => {
       ) : (
         <>
           {totalRecords > 0 ? (
-            <div className="charts-container">
+            <div data-testid="chartsContainer" className="charts-container">
               <CardContainer title="Distance from Earth (KM)">
                 <BarChart data={neosInfo!} />
               </CardContainer>
@@ -139,6 +143,6 @@ export const MainPage = () => {
           )}
         </>
       )}
-    </>
+    </div>
   );
 };

@@ -20,7 +20,7 @@
       "@Services/*": ["services/*"],
       "@Types/*": ["types/*"],
     },
-    "types": [ "@testing-library/jest-dom"],
+    "types": [ "@testing-library/jest-dom","jest","node"],
 
     /* Linting */
     "strict": true,
@@ -28,6 +28,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "src/setupTests.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

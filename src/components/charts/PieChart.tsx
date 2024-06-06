@@ -23,7 +23,7 @@ export const PieChart = ({
               neo.estimated_diameter.kilometers.estimated_diameter_max
           ),
           backgroundColor: data.map(
-            (neo: NEO) =>
+            () =>
               `rgba(${(Math.random() * 256) | 0}, ${
                 (Math.random() * 256) | 0
               }, ${(Math.random() * 256) | 0}, 1)`
@@ -45,7 +45,7 @@ export const PieChart = ({
               neo.estimated_diameter.kilometers.estimated_diameter_max
           ),
           backgroundColor: data.map(
-            (neo: NEO) =>
+            () =>
               `rgba(${(Math.random() * 256) | 0}, ${
                 (Math.random() * 256) | 0
               }, ${(Math.random() * 256) | 0}, 1)`
@@ -56,5 +56,5 @@ export const PieChart = ({
     };
     setInitialData(baseModel);
   }, [data]);
-  return <Pie data={initialData} />;
+  return <Pie data={initialData} data-testid="pieChart"/>;
 };
