@@ -44,10 +44,10 @@ Las pruebas unitarias fueron realizadas principalmente en la MainPage debido a q
 ## Capturas de Pantalla
 
 ### Pantalla Inicial - Loading
-![Loading Image](src/assets/loading.png)
+![Loading Image](src/assets/screenshots/loading.png)
 
 ### Pantalla Inicial
-![Main Screen Image](src/assets/mainscreen.png)
+![Main Screen Image](src/assets/screenshots/mainscreen.png)
 
 ### Pantalla Inicial - Filtro
-![Filter Image](src/assets/filter.png)
+![Filter Image](src/assets/screenshots/filter.png)
