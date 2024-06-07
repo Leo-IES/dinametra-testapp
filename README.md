@@ -51,3 +51,35 @@ Las pruebas unitarias fueron realizadas principalmente en la MainPage debido a q
 
 ### Pantalla Inicial - Filtro
 ![Filter Image](src/assets/screenshots/filter.png)
+
+### Pantalla Inicial - Filtro por Nombre
+![Filter by Name](src/assets/screenshots/name-filter.png)
+
+### Pantalla Inicial - Filtro por Nombre Aplicado
+![Filtered by Name Image](src/assets/screenshots/data-filtered-by-name.png)
+
+### Pantalla Inicial - Filtro por Fecha
+![Filter by Date Image](src/assets/screenshots/date-filter.png)
+
+![Calendar Image](src/assets/screenshots/calendar.png)
+
+### Pantalla Inicial - Filtro por Fecha Aplicado
+![Filtered by Date Image](src/assets/screenshots/data-filtered-by-date.png)
+
+### Pantalla Inicial - Tooltip
+![Tooltip Image](src/assets/screenshots/tooltip.png)
+
+### Pantalla Inicial - Tooltip 2
+![Tooltip 2 Image](src/assets/screenshots/tooltip-2.png)
+
+### Pantalla Inicial - Responsive iPhone SE Vertical (365 x 667 px)
+![Tooltip 2 Image](src/assets/screenshots/responsive-iphoneSE.png)
+
+### Pantalla Inicial - Responsive iPhone SE Horizontal (667 x 365 px)
+![Tooltip 2 Image](src/assets/screenshots/responsive-iphoneSE-landscape.png)
+
+### Pantalla Inicial - Responsive iPad Pro Vertical (1024 x 1336 px)
+![Tooltip 2 Image](src/assets/screenshots/responsive-ipadpro.png)
+
+### Pantalla Inicial - Responsive iPad Pro Horizontal (1336 x 1024 px)
+![Tooltip 2 Image](src/assets/screenshots/responsive-ipadpro-landscape.png)
