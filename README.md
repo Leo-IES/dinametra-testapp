@@ -44,10 +44,10 @@ Las pruebas unitarias fueron realizadas principalmente en la MainPage debido a q
 ## Capturas de Pantalla
 
 ### Pantalla Inicial - Loading
-(</span><span>https://raw.githubusercontent.com/Leo-IES/dinametra-testapp/main/assets/loading.png</span><span>)
+![Loading Image](assets/loading.png)
 
 ### Pantalla Inicial
-(</span><span>https://raw.githubusercontent.com/Leo-IES/dinametra-testapp/main/assets/mainscreen.png</span><span>)
+![Main Screen Image](assets/mainscreen.png)
 
 ### Pantalla Inicial - Filtro
-(</span><span>https://raw.githubusercontent.com/Leo-IES/dinametra-testapp/main/assets/filter.png</span><span>)
+![Filter Image](assets/filter.png)
